@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarryOne - Download App</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 90%;
+            width: 500px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .download-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .download-buttons a {
+            transition: transform 0.2s ease, opacity 0.2s ease;
+            display: inline-block;
+        }
+
+        .download-buttons a:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+
+        .download-buttons img {
+            height: 60px;
+            width: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CarryOne</h1>
+        <p class="subtitle">For onebaggers</p>
+
+        <div class="download-buttons">
+            <a href="https://play.google.com/store/apps/details?id=TEST" target="_blank" rel="noopener noreferrer">
+                <img src="static/media/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+            </a>
+
+            <a href="https://itunes.apple.com/us/app/campable/idTEST" target="_blank" rel="noopener noreferrer">
+                <img src="static/media/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
